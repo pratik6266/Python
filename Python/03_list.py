@@ -1,0 +1,10 @@
+list = ["one", "two", "three"]
+list.insert(3, "four")
+list.append("five")
+print(list)
+print(len(list))
+print(list[0])
+print(list[-2])
+print(list[1:])
+list.pop()
+print(list) 
